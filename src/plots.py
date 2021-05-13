@@ -36,12 +36,12 @@ def distribution_plot(df, column,hue=False):
 	for ax in [ax1, ax2]:
 		ax.set_xlabel("")
 
-	ax1.set_title(f"Distribution of {column}")
-
 	if hue:
 		file_name = f"{column.title()} Distribution, split by {hue}"
+		ax1.set_title(file_name)
 	else:
 		file_name = f"{column.title()} Distribution"
+		ax1.set_title(file_name)
 
 	pf.save_figure(
 		file_name=file_name,
