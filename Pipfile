@@ -15,6 +15,8 @@ statsmodels = "==0.10.2"
 fastcluster = "*"
 seaborn = ">=0.11.1"
 ipykernel = "*"
+pyprojroot = "*"
+sklearn = "*"
 
 [dev-packages]
 
