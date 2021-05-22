@@ -17,6 +17,7 @@ seaborn = ">=0.11.1"
 ipykernel = "*"
 pyprojroot = "*"
 sklearn = "*"
+xgboost = "*"
 
 [dev-packages]
 
